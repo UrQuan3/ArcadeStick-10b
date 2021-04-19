@@ -6,8 +6,8 @@ This does not support the Microsoft proprietary XInput and is unlikely to suppor
 This code does not implement SOCD (Simultaneous Opposite Cardinal Directions) cleaning.  It would be easy to add, but I prefer zeroing the output and lighting a warning light for debugging hand built controllers.
 
 Setup instructions:
-- Install the arduino software and the Teensy libraries:
-https://www.arduino.cc/
+- Install the arduino software and the Teensy libraries:<br>
+https://www.arduino.cc/<br>
 https://www.pjrc.com/teensy/td_download.html
 - Open this project in the arduino software
 - Under "Tools->Board", set your board type.
