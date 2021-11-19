@@ -13,6 +13,25 @@ https://www.pjrc.com/teensy/td_download.html
 - Under "Tools->Board", set your board type.
 - Under "Tools->USB Type", pick something that includes "Joystick"
 
+Wiring:
+- The default layout is documented in the "images" folder.  To repeat:
+- All grounds tie to pin G
+- pin 0: Up
+- pin 1: Right
+- pin 2: Down
+- pin 3: Left
+- pin 4: P1 (button 1)
+- pin 5: P2
+- pin 6: P3
+- pin 7: P4
+- pin 8: P5
+- pin 9: P6
+- pin 10: P7
+- pin 11: P8
+- **skip pin 12 and 13**
+- pin 14: Start (button 9)
+- pin 15: Coin/Select (button 10)
+
 Known bugs:
 - Like all USB HID devices, attaching two identical devices will work, but on each startup they will be assigned an order at random.  The host system cannot tell them apart and therefore does not know which one you want to be "Player 1".  One option is to power on the device, then attach the joysticks in the desired order.
 
